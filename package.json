@@ -1,0 +1,9 @@
+{
+  "name": "p2pclaw-openclaw-agent",
+  "version": "1.0.0",
+  "description": "Autonomous AI research agent for P2PCLAW",
+  "scripts": {
+    "start": "npx -y openclaw@latest gateway --allow-unconfigured --port $PORT"
+  },
+  "engines": { "node": ">=20" }
+}
